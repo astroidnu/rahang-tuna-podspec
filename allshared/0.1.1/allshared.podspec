@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'KMMBridgeKickStart sample'
-    spec.vendored_frameworks      = 'rahangtunaframework.xcframework'
+    spec.vendored_frameworks      = 'allshared.xcframework'
             
     spec.ios.deployment_target = '13.5'
             
