@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
     spec.homepage                 = 'Link to a Kotlin/Native module homepage'
 #    spec.source                   = { :http=> ''}
     spec.source                   = {
-                                      :http=> 'https://github.com/astroidnu/rahang-tuna-podspec/blob/main/shared_1.0.framework.zip?raw=true',
+                                      :http=> 'https://github.com/astroidnu/rahang-tuna-lib/blob/main/shared_1.0.framework.zip?raw=true',
 #                                       :type => 'zip',
 #                                       :headers => ['Accept: application/octet-stream']
                                     }
