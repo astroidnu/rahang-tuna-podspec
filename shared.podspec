@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
     spec.license                  = { :type => 'MIT', :text => 'License text'}
     spec.summary                  = 'Some description for a Kotlin/Native module'
 #    spec.vendored_frameworks      = 'build/cocoapods/framework/shared.framework'
-    spec.vendored_frameworks      = 'shared.framework'
+    spec.ios.vendored_frameworks      = 'shared.framework'
     spec.ios.deployment_target    = '13'
     spec.libraries                = 'c++','sqlite3'
 end
